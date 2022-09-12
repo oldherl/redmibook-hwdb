@@ -15,3 +15,9 @@ Either apply the patch and rebuild the kernel, or to use a newer (>=6.0) kernel.
 * On Windows. Go to your support representative and pray for a human to understand your problem.
 
 ## How to use
+### Arch Linux
+Install the AUR package [redmibook-hwdb-git](https://aur.archlinux.org/packages/redmibook-hwdb-git).
+### Other
+The basic idea is to put the `*.hwdb` file somewhere like `/usr/lib/udev/hwdb.d/`, and run `/usr/bin/systemd-hwdb --usr update` command to update the database.
+
+Please consult your distro's documentation for details. Welcome PR to post installation methods here.
